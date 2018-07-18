@@ -1,0 +1,22 @@
+
+
+public class MainRectangle {
+
+	public static void main(String[] args) {
+		
+		Rectangle r1 = new Rectangle(5, 10, Units.Meter );  // rectangle
+		
+		Rectangle r2 = new Rectangle(5, Units.Millimeter );  //square
+		
+		System.out.println("Rectangle one:");	
+		System.out.println(UnitUtils.convertPerimeter(r1.perimeter(), r1.getUnits(), Units.Millimeter));
+		System.out.println("Rectangle one:");	
+		System.out.println(UnitUtils.convertPerimeter(r2.perimeter(), r2.getUnits(), Units.Meter));
+
+		
+		System.out.println(r1.toString());
+		System.out.println(r2.toString());
+	}
+	
+
+}
