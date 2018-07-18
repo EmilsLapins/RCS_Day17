@@ -8,11 +8,11 @@ public class MainRectangle {
 		
 		Rectangle r3 = new Rectangle(); //default
 		
-		System.out.println("Rectangle one:");	
+		System.out.print("Rectangle one perimeter: ");	
 		System.out.println(UnitUtils.convertPerimeter(r1.perimeter(), r1.getUnits(), Units.Millimeter));
-		System.out.println("Rectangle two:");	
+		System.out.print("Square one perimeter : ");	
 		System.out.println(UnitUtils.convertPerimeter(r2.perimeter(), r2.getUnits(), Units.Meter));
-		System.out.println("Rectangle default:");	
+		System.out.print("Rectangle default perimeter : ");	
 		System.out.println(UnitUtils.convertPerimeter(r3.perimeter(), r3.getUnits(), Units.Meter));
 
 		

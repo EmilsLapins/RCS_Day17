@@ -74,7 +74,8 @@ public class Rectangle {
 
 		@Override
 		public String toString() {
-			return "Rectangle [length= " + length + ", width= " + width + ", units= " + units + "]";
+			return "Rectangle [length=" + length + ", width=" + width + ", units=" + units + ", isSquare()="
+					+ isSquare() + ", area()=" + area() + ", perimeter()=" + perimeter() + "]";
 		}
 
 	
