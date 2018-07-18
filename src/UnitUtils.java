@@ -1,4 +1,5 @@
 
+
 public class UnitUtils {
 	
 	private static double millimeter_centimeters = 10.0;
@@ -60,7 +61,7 @@ public class UnitUtils {
 }
 
 
-//Uzrakstīt UnitUtils klasi ar kuru var konvertēt:
-//a. Perimetru no mērvienības A uz mērvienību B
-//b. Figūras laikumu no mērvienības B
-//c. Nepieciešamās konstantes glabāt tā, lai nevar tās izmainīt ar kodu
+//UzrakstÄ«t UnitUtils klasi ar kuru var konvertÄ“t:
+//a. Perimetru no mÄ“rvienÄ«bas A uz mÄ“rvienÄ«bu B
+//b. FigÅ«ras laikumu no mÄ“rvienÄ«bas B
+//c. NepiecieÅ¡amÄ�s konstantes glabÄ�t tÄ�, lai nevar tÄ�s izmainÄ«t ar kodu

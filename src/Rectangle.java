@@ -32,10 +32,11 @@ public class Rectangle {
 		
 		
 		public  Rectangle () {
-			length = 5; //default values
-			width = 4;  //
+			this(5, 4, Units.Centimeter);  
 			// var ari sadi
-			//this(5, 4,);  
+			//length = 5; //default values
+			//width = 4;
+			//this.units = Units.Centimeter;
 		}
 		
 		public  Rectangle (int length, int width, Units units) { // rectangle with parameters
